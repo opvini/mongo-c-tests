@@ -8,3 +8,8 @@ $ sudo mongod --fork --logpath /home/opvini/Git/mongo-c-tests/mongo/mongo-server
 BUILD (in ./build):
 $ cmake .
 $ make
+
+Install: CMake Tools in VSC
+1) In the console (ctrl+shift+P): CMake: Configure
+2) Debug shall be done using the CMake Tools (bottom toolbar)
+3) Press to debug, and voiala
